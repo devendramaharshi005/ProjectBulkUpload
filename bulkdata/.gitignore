@@ -1,5 +1,10 @@
 HELP.md
+# Ignore everything in target/
 target/
+
+# But keep the compiled JAR so Docker can access it
+!target/bulkdata-0.0.1-SNAPSHOT.jar
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/

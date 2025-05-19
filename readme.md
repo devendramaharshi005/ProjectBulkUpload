@@ -38,3 +38,8 @@ Check for the generated JAR file inside:
 ```bash
 target/bulkdata-0.0.1-SNAPSHOT.jar
 ```
+
+## run this for skipping test cases
+```cmd
+mvnw.cmd clean package -DskipTests
+```
